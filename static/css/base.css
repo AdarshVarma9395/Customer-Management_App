@@ -1,0 +1,52 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+#logo{
+    background-color: #768834;
+
+}
+body{
+    background-color: #ebeff5;
+    padding:20px;
+}
+
+#total-orders{
+    background-color: #4cb4c7;
+}
+
+#orders-delivered{
+    background-color: #7abecc;
+}
+
+#orders-pending{
+    background-color: #7cd1c0;
+}
+
+
+
+.card-body a.btn {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+
+
+table, th, td {
+    border: 1px solid black;
+  }
+  .card-container{
+    width: 50%;
+  }
+  @media only screen and (max-width: 768px) {
+    .card-container{
+        width: 90%;
+    }
+}
+
+.navbar-image {
+    max-width: 100px; /* Adjust the maximum width as per your requirement */
+    height: auto; /* This ensures the aspect ratio of the image is maintained */
+}
